@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  border: 0;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+ul a {
+  text-decoration: none;
+  color:rgb(95, 96, 90);;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+#about{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 50px;
+  gap: 20px;
+}
+
+header {
+  padding: 30px;
+}
+.home-content {
+  font-size: 80px;
+  font-weight: bolder;
+ display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  color: rgb(95, 96, 90);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(95, 96, 90);
+  padding-top: 30px;
+  text-align: center;
+}
+.skills {
+  display: block;
+  padding: 20px;
+  background-color: rgb(195, 195, 185);
+  border-radius: 10px;
+  color: black;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 18px;
+  background-image: url(skill\ bck.jpg);
+  background-size: cover;
+  border-radius: 20px;
+ 
+}
+.education{
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 40px;
+
+}
+footer{
+    background-color: rgb(130, 130, 122);
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+h3{
+    color:rgb(95, 96, 90);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+}
+img{
+    border-radius: 30%;
+    margin-left: 50px;
+}
+body{
+    background-color: aliceblue;
+}
+.learning{
+  font-size: 20px;
+  background-color: rgb(233, 226, 226);
+  color:black;
+  border-radius: 10px; 
+  padding: 20px;
+  margin-top: 70px;
+}
+img{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+   .edctn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding: 70px;
+    background-image: url(back\ for\ about.jpg);
+    background-size: cover;
+    margin: 18px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  
+    } 
+   .learning{
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
+    margin-left: 60px;
+   }
+   
+   li a:hover{
+    color:black;
+    background-color:skyblue;
+    border-radius: 10px;
+    padding: 5px;
+   }
+   li a:active{
+  color:black;
+  background-color: yellow;
+}
+#contact a:hover{
+  color: indianred;
+  background-color: aliceblue;
+}
+#contact a:active{
+  background-color:teal;
+  color: white;
+}
+.skills li:nth-child(odd){
+  background-color: rgb(254, 254, 249);
+}
+.skills li:nth-child(even){
+  background-color: rgb(110, 109, 109);
+  color: #f7f4ef;
+  border-radius: 5px;
+}
+ p:nth-child(odd){
+  background-color:rgb(110, 109, 109);
+  color: #f7f4ef;
+  padding: 10px;
+  border-radius: 20px;
+ }
+ 
+ .skills li::before{
+  content: "✔";
+  color:black;
+ }
+ .techskill h3::after{
+  content: "💻";
+ }
+ .sftskill h3::after{
+  content: "💡";
+ }
+ #h1 ::before{
+  content: "🎓";
+ }
+.Email-link a::before {
+  content: "📧";
+}
+.Github-link a::before{
+  content: "💻";
+}
+.linkedin-link::before{
+  content: "🔗";
+}
+div p::first-letter{
+  font-size: 2em;
+}
+.skill li{
+  color: rgb(16, 14, 14);
+}
+.footer h1{
+  color: #f7f4ef;
+
+}
+h3 + img {
+  border-radius: 10px;
+}
+.techskill ~ .softskill {
+  margin-left: 30px;
+} 
